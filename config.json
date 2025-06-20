@@ -152,7 +152,8 @@
             "needCopyToAppDir": true,
             "dylibSelect": "CoreInject.dylib",
             "supportVersion": [
-                "5.5.12"
+                "5.5.12",
+                "5.5.15"
             ]
         },
         {
@@ -344,12 +345,7 @@
             ]
         },
         {
-            "packageName": "com.firecore.infuse",
-            "bridgeFile": "/Contents/MacOS/",
-            "injectFile": "Infuse",
-            "needCopyToAppDir": true,
-            "entitlements": "signkeep.xml",
-            "deepSignApp": true
+            "packageName": "com.firecore.infuse"
         },
         {
             "packageName": "com.coderforart.MWeb3",
@@ -507,9 +503,7 @@
         {
             "packageName": "com.navicat.NavicatPremium",
             "supportVersion": [
-                "17.2.4",
-                "17.2.5",
-                "17.2.6"
+                "17.2.8"
             ]
         },
         {
@@ -857,16 +851,16 @@
         },
         {
             "packageName": "com.bandisoft.mac.bandizip365",
-            "needCopyToAppDir": true,
-            "deepSignApp": true,
-            "bridgeFile": "/Contents/MacOS/",
-            "injectFile": "Bandizip365"
+            "supportVersion":[
+                "7.34"
+            ]
         },
         {
             "packageName": "com.wuziqi.SenPlayer",
             "supportVersion": [
-                "5.2.2",
-                "5.5.0"
+                "5.6.0",
+                "5.6.1",
+                "5.6.2"
             ]
         },
         {
@@ -979,15 +973,8 @@
         },
         {
             "packageName": "com.wiheads.paste",
-            "bridgeFile": "/Contents/MacOS/",
-            "injectFile": "Paste",
-            "needCopyToAppDir": true,
-            "deepSignApp": true,
-            "tccutil": [
-                "All",
-                "Camera",
-                "Microphone",
-                "ScreenCapture"
+            "supportVersion":[
+                "5.0.7"
             ]
         },
         {
@@ -1097,9 +1084,24 @@
             ]
         },
         {
+            "packageName":["com.xunyong.1capture","com.xunyong.hapigo"],
+            "supportVersionZ": [
+                "1.2.0",
+                "此App目前算法激活, 通杀"
+            ]
+        },
+        {
+            "packageName":"pro.docklock.lite",
+            "extraShell": "docklock.sh",
+            "onlysh": true,
+            "supportVersion": [
+                "1.3.2"
+            ]
+        },
+        {
             "packageName": "QReader.MarginStudy.easy",
             "supportVersion": [
-                "4.1.17"
+                "4.1.18"
             ]
         },
         {
