@@ -120,7 +120,7 @@
             "injectFile": "GPod.framework/Versions/A/GPod",
             "needCopyToAppDir": true,
             "dylibSelect": "CoreInject.dylib",
-            "feedUrl":"https://downloads.imazing.com/mac/iMazing/3.3.0.21424/iMazing_3.3.0.21424.dmg",
+            "feedUrl": "https://downloads.imazing.com/mac/iMazing/3.3.0.21424/iMazing_3.3.0.21424.dmg",
             "supportVersion": [
                 "3.2.1",
                 "3.3.0"
@@ -286,7 +286,8 @@
         {
             "packageName": "com.surteesstudios.Bartender",
             "supportVersion": [
-                "5.3.6"
+                "5.3.6",
+                "5.3.8"
             ]
         },
         {
@@ -610,18 +611,12 @@
             "noDeep": true
         },
         {
-            "packageName": "com.adobe.lightroomCC",
-            "supportVersion": [
-                "8.3.1"
-            ]
+            "packageName": "com.adobe.lightroomCC"
         },
         {
             "packageName": "com.adobe.LightroomClassicCC7",
             "entitlements": "signkeep.xml",
-            "extraShell": "signLrc.sh",
-            "supportVersion": [
-                "14.3.1"
-            ]
+            "extraShell": "signLrc.sh"
         },
         {
             "packageName": "com.adobe.Photoshop",
@@ -671,7 +666,7 @@
             "useOptool": false
         },
         {
-            "packageName": "com.adobe.AfterEffects",
+            "packageName": "com.adobe.AfterEffects.application",
             "appBaseLocate": "/Applications/Adobe After Effects 2025/Adobe After Effects 2025.app",
             "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
             "needCopyToAppDir": true,
@@ -717,17 +712,11 @@
         {
             "packageName": "com.adobe.Acrobat.Pro",
             "bridgeFile": "/Contents/Frameworks/",
-            "injectFile": "Acrobat.framework/Versions/A/Acrobat",
-            "supportVersion": [
-                "25.001.20467"
-            ]
+            "injectFile": "Acrobat.framework/Versions/A/Acrobat"
         },
         {
             "packageName": "com.adobe.distiller",
-            "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-            "supportVersion": [
-                "25.001.20467"
-            ]
+            "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM"
         },
         {
             "packageName": "com.adobe.InCopy",
@@ -852,7 +841,7 @@
         },
         {
             "packageName": "com.bandisoft.mac.bandizip365",
-            "supportVersion":[
+            "supportVersion": [
                 "7.34"
             ]
         },
@@ -861,8 +850,13 @@
             "supportVersion": [
                 "5.6.0",
                 "5.6.1",
-                "5.6.2"
+                "5.6.2",
+                "5.6.3"
             ]
+        },
+        {
+            "packageName":"com.gitswift.SwiftServer",
+            "supportVersion":["1.1.2都不支持"]
         },
         {
             "packageName": "org.cindori.Sensei",
@@ -974,7 +968,7 @@
         },
         {
             "packageName": "com.wiheads.paste",
-            "supportVersion":[
+            "supportVersion": [
                 "5.0.7"
             ]
         },
@@ -1051,14 +1045,14 @@
             "injectFile": "Sparkle.framework/Versions/A/Sparkle"
         },
         {
-            "info":"这个App不是很难，但我没搞懂这个怎么用，没法找人测试。",
-            "packageName":"com.renewedvision.pvp3",
-            "helperFile":"/Contents/Library/LaunchServices/com.renewedvision.HelperV2",
-            "SMExtra":"com.renewedvision.Helper",
-            "supportVersion":[
+            "info": "这个App不是很难，但我没搞懂这个怎么用，没法找人测试。",
+            "packageName": "com.renewedvision.pvp3",
+            "helperFile": "/Contents/Library/LaunchServices/com.renewedvision.HelperV2",
+            "SMExtra": "com.renewedvision.Helper",
+            "supportVersion": [
                 "3.8"
             ],
-            "forQiuChenly":true
+            "forQiuChenly": true
         },
         {
             "packageName": "com.culturedcode.ThingsMac",
@@ -1085,14 +1079,17 @@
             ]
         },
         {
-            "packageName":["com.xunyong.1capture","com.xunyong.hapigo"],
+            "packageName": [
+                "com.xunyong.1capture",
+                "com.xunyong.hapigo"
+            ],
             "supportVersionZ": [
                 "1.2.0",
                 "此App目前算法激活, 通杀"
             ]
         },
         {
-            "packageName":"pro.docklock.lite",
+            "packageName": "pro.docklock.lite",
             "extraShell": "docklock.sh",
             "onlysh": true,
             "supportVersion": [
